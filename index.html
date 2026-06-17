@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Master Plumbing Inc. | Houston's Trusted Plumbing Experts</title>
+    <meta name="description" content="Flow Master Plumbing Inc. - Houston's trusted plumbing experts. 24/7 emergency service, licensed and insured.">
+    <meta property="og:title" content="Flow Master Plumbing Inc. | Houston's Trusted Plumbing Experts">
+    <meta property="og:description" content="Fast, reliable, and affordable plumbing services for your home or business. 24/7 Emergency Response in Houston, TX.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=1200&auto=format&fit=crop">
+    <meta property="og:url" content="https://flowmasterplumbing.com">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="keywords" content="plumber near me, Houston plumber, emergency plumbing, water heater installation, pipe repair, drain cleaning, 24/7 plumber TX">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "PlumbingService",
+      "name": "Flow Master Plumbing Inc.",
+      "image": "https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=1200&auto=format&fit=crop",
+      "@id": "https://flowmasterplumbing.com",
+      "url": "https://flowmasterplumbing.com",
+      "telephone": "(800) 555-1234",
+      "priceRange": "$$",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Plumbing Way",
+        "addressLocality": "Houston",
+        "addressRegion": "TX",
+        "postalCode": "77001",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 29.7604,
+        "longitude": -95.3698
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700;900&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Top Info Bar -->
+    <div class="top-bar">
+        <div class="container top-bar-inner">
+            <div class="top-info">
+                <span><i class="fas fa-clock"></i> 24/7 Emergency</span>
+                <span class="divider">|</span>
+                <span><i class="fas fa-shield-alt"></i> Licensed & Insured</span>
+                <span class="divider">|</span>
+                <span><i class="fas fa-map-marker-alt"></i> Serving Houston</span>
+            </div>
+            <div class="top-contact">
+                <a href="mailto:flowmasterplumbinginc@gmail.com"><i class="fas fa-envelope"></i> flowmasterplumbinginc@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="logo">
+                <i class="fas fa-tint logo-icon"></i>
+                <div class="logo-text">
+                    <span class="brand-name">Flow Master</span>
+                    <span class="brand-sub">Plumbing Inc.</span>
+                </div>
+            </a>
+            
+            <div class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#about">About</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#work">Recent Work</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="nav-cta">
+                <a href="tel:+18324346136" class="btn btn-gold"><i class="fas fa-phone-alt fa-flip-horizontal"></i> Call Now</a>
+            </div>
+
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open Navigation Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobileMenu">
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#reviews">Reviews</a>
+            <a href="#work">Recent Work</a>
+            <a href="#contact">Contact</a>
+            <a href="tel:+18324346136" class="btn btn-gold mobile-btn"><i class="fas fa-phone-alt fa-flip-horizontal"></i> Call Now</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-inner">
+            <div class="hero-content fade-in">
+                <h1>Houston's Trusted Plumbing Experts</h1>
+                <p>Fast, reliable, and affordable plumbing services for your home or business. We're here when you need us most.</p>
+                <div class="hero-buttons">
+                    <a href="tel:+18324346136" class="btn btn-gold btn-large"><i class="fas fa-phone-alt fa-flip-horizontal"></i> Call (832) 434-6136</a>
+                </div>
+            </div>
+            <div class="hero-form-wrapper fade-in-up">
+                <div class="lead-form">
+                    <h3>Request Service</h3>
+                    <p>Fill out the form below and we'll get back to you shortly.</p>
+                    <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <select name="service" required>
+                                <option value="" disabled selected>Service Needed</option>
+                                <option value="emergency">Emergency Repair</option>
+                                <option value="drain">Drain Cleaning</option>
+                                <option value="pipe">Pipe Repair</option>
+                                <option value="water-heater">Water Heater</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" rows="3" placeholder="How can we help?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-blue btn-block">Submit Request</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="custom-shape-divider-bottom">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Trust Bar -->
+    <div class="trust-bar">
+        <div class="container trust-inner">
+            <div class="trust-item">
+                <div class="trust-icon"><i class="fas fa-clock"></i></div>
+                <div class="trust-text">24/7 Emergency Response</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon"><i class="fas fa-file-contract"></i></div>
+                <div class="trust-text">Fully Licensed & Insured</div>
+            </div>
+            <div class="trust-item">
+                <div class="trust-icon"><i class="fas fa-medal"></i></div>
+                <div class="trust-text">100% Satisfaction Guaranteed</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Our Plumbing Services</h2>
+                <div class="divider-line"></div>
+                <p>Comprehensive plumbing solutions for Houston homeowners and businesses.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card fade-in-up">
+                    <div class="service-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Emergency Repairs</h3>
+                    <p>Available 24/7 for burst pipes, severe leaks, and other plumbing emergencies.</p>
+                </div>
+                <div class="service-card fade-in-up" style="transition-delay: 0.1s;">
+                    <div class="service-icon"><i class="fas fa-water"></i></div>
+                    <h3>Drain Cleaning</h3>
+                    <p>Professional snaking and hydro-jetting to clear the most stubborn clogs.</p>
+                </div>
+                <div class="service-card fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="service-icon"><i class="fas fa-wrench"></i></div>
+                    <h3>Pipe Repair</h3>
+                    <p>Leak detection, pipe repair, and full repiping services for older homes.</p>
+                </div>
+                <div class="service-card fade-in-up">
+                    <div class="service-icon"><i class="fas fa-toilet"></i></div>
+                    <h3>Toilet & Fixture Install</h3>
+                    <p>Installation and repair of toilets, sinks, faucets, and garbage disposals.</p>
+                </div>
+                <div class="service-card fade-in-up" style="transition-delay: 0.1s;">
+                    <div class="service-icon"><i class="fas fa-fire"></i></div>
+                    <h3>Water Heater Services</h3>
+                    <p>Repair and installation of traditional and tankless water heating systems.</p>
+                </div>
+                <div class="service-card fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="service-icon"><i class="fas fa-home"></i></div>
+                    <h3>Residential Plumbing</h3>
+                    <p>Routine maintenance, inspections, and upgrades for your entire plumbing system.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container about-inner">
+            <div class="about-content fade-in">
+                <h2>About Flow Master Plumbing</h2>
+                <div class="divider-line left"></div>
+                <p>Flow Master Plumbing Inc. has been serving the Houston area with top-tier plumbing services. Our mission is simple: provide honest, reliable, and high-quality workmanship for every customer.</p>
+                <p>Whether it's a minor leak or a major installation, our team of licensed professionals treats your home with the utmost respect. We proudly serve Houston, Katy, Sugar Land, and The Woodlands.</p>
+                <ul class="about-list">
+                    <li><i class="fas fa-check-circle"></i> Honest, upfront pricing</li>
+                    <li><i class="fas fa-check-circle"></i> Clean and professional technicians</li>
+                    <li><i class="fas fa-check-circle"></i> High-quality parts and materials</li>
+                </ul>
+            </div>
+            <div class="about-image fade-in-up">
+                <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?auto=format&fit=crop&w=800&q=80" alt="Plumber at work" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section id="reviews" class="section bg-light">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Real Customer Reviews</h2>
+                <div class="divider-line"></div>
+                <p>See what Houston homeowners are saying about our service on Google.</p>
+            </div>
+            <div class="ss-reviews-grid">
+                <div class="ss-review-card fade-in-up">
+                    <div class="review-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"Charlie was the man! Fixed the shower in under 30 minutes. Works like a charm now."</p>
+                        <p class="review-author">- Joey Dedick</p>
+                    </div>
+                </div>
+                <div class="ss-review-card fade-in-up" style="transition-delay: 0.1s;">
+                    <div class="review-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"Very nice and came last minute at 7:30 PM to fix a leak. Was very responsive and did a professional job! I never post, but felt the need considering his quality service."</p>
+                        <p class="review-author">- Nick Little</p>
+                    </div>
+                </div>
+                <div class="ss-review-card fade-in-up" style="transition-delay: 0.2s;">
+                    <div class="review-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                        </div>
+                        <p class="review-text">"Super professional, experienced, and reasonably priced. I called two plumbers before him and they couldn't figure out where the leak was coming from, but Flow Master Plumbing found it right away. Definitely glad I found someone I can count on for any plumbing work."</p>
+                        <p class="review-author">- Moe Hellou</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Work -->
+    <section id="work" class="section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2>Our Recent Work</h2>
+                <div class="divider-line"></div>
+                <p>A glimpse into the quality plumbing projects we complete every day.</p>
+            </div>
+            <div class="work-grid">
+                <div class="work-card fade-in-up">
+                    <img src="assets/water-heater-install.jpeg" alt="Water Heater Install" loading="lazy">
+                    <div class="work-info">
+                        <h4>Water Heater Install</h4>
+                    </div>
+                </div>
+                <div class="work-card fade-in-up" style="transition-delay: 0.1s;">
+                    <img src="assets/leak-repair.jpeg" alt="Leak Repair" loading="lazy">
+                    <div class="work-info">
+                        <h4>Leak Repair</h4>
+                    </div>
+                </div>
+                <div class="work-card fade-in-up" style="transition-delay: 0.2s;">
+                    <img src="assets/drain-cleaning.jpeg" alt="Drain Cleaning" loading="lazy">
+                    <div class="work-info">
+                        <h4>Drain Cleaning</h4>
+                    </div>
+                </div>
+                <div class="work-card fade-in-up" style="transition-delay: 0.3s;">
+                    <img src="assets/bathroom-remodel.jpeg" alt="Bathroom Remodel" loading="lazy">
+                    <div class="work-info">
+                        <h4>Bathroom Remodel</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <h2>Get In Touch</h2>
+                    <div class="divider-line left"></div>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>Address</strong>
+                                <p>2410 Jamestown Mall<br>Houston, TX 77057</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt fa-flip-horizontal"></i>
+                            <div>
+                                <strong>Phone</strong>
+                                <p><a href="tel:+18324346136">(832) 434-6136</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <p><a href="mailto:flowmasterplumbinginc@gmail.com">flowmasterplumbinginc@gmail.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>Hours</strong>
+                                <p>24/7 Emergency Service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map fade-in">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3463.6558231908953!2d-95.50853502360588!3d29.75865667506646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c309324021dd%3A0xe75ea01072a39223!2s2410%20Jamestown%20Mall%2C%20Houston%2C%20TX%2077057!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-cta fade-in-up">
+                    <h3>Need a Plumber Now?</h3>
+                    <p>Don't wait! Call us immediately for fast, reliable service in Houston and surrounding areas.</p>
+                    <a href="tel:+18324346136" class="btn btn-gold btn-block btn-large"><i class="fas fa-phone-alt fa-flip-horizontal"></i> Call (832) 434-6136</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <div class="logo">
+                    <i class="fas fa-tint logo-icon"></i>
+                    <div class="logo-text">
+                        <span class="brand-name">Flow Master</span>
+                        <span class="brand-sub">Plumbing Inc.</span>
+                    </div>
+                </div>
+                <p>Houston's trusted plumbing experts. Fast, reliable, and affordable service for all your plumbing needs.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <a href="#services">Services</a>
+                <a href="#about">About Us</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#work">Recent Work</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <p><i class="fas fa-map-marker-alt"></i> 2410 Jamestown Mall, Houston, TX</p>
+                <p><a href="tel:+18324346136"><i class="fas fa-phone-alt fa-flip-horizontal"></i> (832) 434-6136</a></p>
+                <p><a href="mailto:flowmasterplumbinginc@gmail.com"><i class="fas fa-envelope"></i> flowmasterplumbinginc@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Flow Master Plumbing Inc. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Mobile Call Button -->
+    <a href="tel:+18324346136" class="floating-call">
+        <i class="fas fa-phone-alt fa-flip-horizontal"></i>
+    </a>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://api.whatsapp.com/send?phone=18324346136" class="floating-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Chat with us on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
